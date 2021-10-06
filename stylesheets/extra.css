@@ -37,6 +37,12 @@
     padding: 0.15em 0.3em;
 }
 
+/* Em */
+
+.md-typeset em {
+    color: var(--md-default-fg-color--light);
+}
+
 /* List */
 
 .md-typeset ol li, .md-typeset ul li {
