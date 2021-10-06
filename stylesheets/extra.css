@@ -11,31 +11,41 @@
 /* Headers */
 
 .md-typeset h1, .md-typeset h2, .md-typeset  h3 {
-	font-family: "Caviar Dreams";
-	font-weight: 700;
+    font-family: "Caviar Dreams";
+    font-weight: 700;
+    color: var(--md-accent-fg-color);
+
 }
 
+/* Icon colors */
+
+.md-typeset .emojione, .md-typeset .gemoji, .md-typeset .twemoji {
+    color: var(--md-default-fg-color);
+}
+
+/* Header code */
+
 .md-typeset h1 code, .md-typeset h2 code, .md-typeset h3 code, .md-typeset h4 code, .md-typeset h5 code {
-	background-color: var(--md-code-bg-color);
-	padding: 0.15em 0.3em;
+    background-color: var(--md-code-bg-color);
+    padding: 0.15em 0.3em;
 }
 
 /* Code */
 
 .md-typeset code {
-	font-family: "Fira Mono";
-	padding: 0.15em 0.3em;
+    font-family: "Fira Mono";
+    padding: 0.15em 0.3em;
 }
 
 /* List */
 
 .md-typeset ol li, .md-typeset ul li {
-	margin-bottom: 0em;
+    margin-bottom: 0em;
 }
 
 /* Admonitions */
 
 .md-typeset .admonition {
-	font-size: 0.9em;
-	margin: 1em 0;
+    font-size: 0.9em;
+    margin: 1em 0;
 }
