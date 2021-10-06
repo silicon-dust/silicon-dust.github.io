@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Fira Mono";
+  src: url("FiraMono-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url("CaviarDreams.ttf") format('truetype');
+}
+
+/* Headers */
+
+.md-typeset h1, .md-typeset h2, .md-typeset  h3 {
+	font-family: "Caviar Dreams";
+	font-weight: 700;
+}
+
+.md-typeset h1 code, .md-typeset h2 code, .md-typeset h3 code, .md-typeset h4 code, .md-typeset h5 code {
+	background-color: var(--md-code-bg-color);
+	padding: 0.15em 0.3em;
+}
+
+/* Code */
+
+.md-typeset code {
+	font-family: "Fira Mono";
+	padding: 0.15em 0.3em;
+}
+
+/* List */
+
+.md-typeset ol li, .md-typeset ul li {
+	margin-bottom: 0em;
+}
+
+/* Admonitions */
+
+.md-typeset .admonition {
+	font-size: 0.9em;
+	margin: 1em 0;
+}
