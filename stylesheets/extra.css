@@ -14,7 +14,10 @@
     font-family: "Caviar Dreams";
     font-weight: 700;
     color: var(--md-accent-fg-color);
-
+    border-bottom-color: var(--md-accent-fg-color);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 0.3em;
 }
 
 /* Icon colors */
