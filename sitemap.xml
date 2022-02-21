@@ -2,227 +2,247 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Lexicon/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/MC/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/MC/Complications/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/MC/Factions/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/MC/MC%20modules/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/MC/Threads%20and%20clues/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/MC/Threats/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Basic_Moves/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <loc>https://valentinlageard.github.io/Silicon_Dust/Moves/Basic_Moves/</loc>
+         <lastmod>2022-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/Silicon_Dust/Moves/Ellipsis_moves/</loc>
+         <lastmod>2022-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/Silicon_Dust/Moves/Peripheral%20moves/</loc>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Character_creation/</loc>
-         <lastmod>2021-10-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://valentinlageard.github.io/Silicon_Dust/Players/World%20Moves/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Async/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Captain/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Construct/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Engineer/</loc>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Exec/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Exhuman/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Exolog/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Influencer/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Radical/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Shadow/</loc>
-         <lastmod>2021-10-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Startupper/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Archetypes/Template/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Expertises/Cybernetics/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Expertises/Design/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Expertises/Egoriding/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Expertises/Hacking/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Expertises/Investigation/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Expertises/Memegineering/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Expertises/Psychosurgery/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Expertises/Specops/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Gear/Drones%20and%20Vehicles/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Gear/Gear/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Gear/Services/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Gear/Shells%2C%20Augs%20and%20Angels/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Gear/Various/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Gear/Weapons/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Players/Gear/Wearables/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Playing%20the%20game/Ellipsis/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/Silicon_Dust/Playing%20the%20game/Factions%2C%20Rep%20and%20Favors/</loc>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Playing%20the%20game/First%20session/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Playing%20the%20game/Harm%20and%20Trauma/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/Silicon_Dust/Playing%20the%20game/Introduction/</loc>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Playing%20the%20game/Making%20moves/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://valentinlageard.github.io/Silicon_Dust/Playing%20the%20game/Shells%2C%20Augs%20and%20Stats/</loc>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Transhumanity/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Transhumanity/Habitats/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Transhumanity/Names/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://valentinlageard.github.io/Silicon_Dust/Transhumanity/Setting%20modules/</loc>
-         <lastmod>2021-10-31</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

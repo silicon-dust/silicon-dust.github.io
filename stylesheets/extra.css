@@ -56,32 +56,38 @@
 
 /* List */
 
+.md-typeset ol, .md-typeset ul {
+    margin: 0em;
+}
+
 .md-typeset ol li, .md-typeset ul li {
     margin-bottom: 0em;
+}
+
+p:has(+ ul) {
+    margin-bottom: 0.25em;
 }
 
 /* Admonitions */
 
 .md-typeset .admonition {
     font-size: 1em;
-    margin: 0.75em 0;
+    margin: 0.45em 0;
 }
 
 .md-typeset .admonition-title {
-    padding: .2rem .6rem .1rem 2rem;
-    height: 2em;
+    padding: .1rem .6rem .1rem 2rem;
 }
 
 .md-typeset .admonition-title::before {
     margin-top: 0.1em;
 }
 
-/* List */
-
-.md-typeset ul, .md-typeset ol {
-    margin: 0.5em 0em 0.5em 0.625em;
+html .md-typeset .admonition > p:not(.admonition-title), html .md-typeset .admonition > ul {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
 }
 
-p:has(+ ul) {
-    margin-bottom: 0.25em;
+html .md-typeset .admonition > :last-child, html .md-typeset details > :last-child {
+    margin-bottom: 0.1rem;
 }
