@@ -39,6 +39,8 @@
     
       <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../../../stylesheets/global.css">
+    
     
       
 
@@ -328,8 +330,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Moves/Basic_Moves/" class="md-nav__link">
-        Basic Moves
+      <a href="../../../Moves/Basic_moves/" class="md-nav__link">
+        Basic moves
       </a>
     </li>
   
@@ -352,8 +354,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Moves/Peripheral%20moves/" class="md-nav__link">
-        World moves
+      <a href="../../../Moves/Peripheral_moves/" class="md-nav__link">
+        Peripheral moves
       </a>
     </li>
   
@@ -1025,54 +1027,52 @@
 <h3 id="augs-cost-and-repair">Augs cost and repair</h3>
 <p>Augs cost depends on its quality level:</p>
 <ul>
-<li>A <code>0-aug</code> costs nothing.</li>
-<li>A <code>1-aug</code> costs <code>2-cred</code>.</li>
-<li>A <code>2-aug</code> costs <code>5-cred</code> upfront or <code>3-cred</code> if you upgrade it from a <code>1-aug</code>.</li>
-<li>A <code>3-aug</code> costs <code>10-cred</code> upfront or <code>5-cred</code> if you upgrade it from a <code>2-aug</code>.</li>
-<li>A <code>4-aug</code> costs <code>20-cred</code> upfront or <code>10-cred</code> if you upgrade it from a <code>3-aug</code>. However <code>4-aug</code> are rare and experimental and cannot be found on the market. If you want to upgrade to a <code>4-aug</code>, you must first establish in the fiction how you can get it.</li>
+<li>A <code>tier-0</code> costs nothing.</li>
+<li>A <code>tier-1</code> costs <code>2-cred</code>.</li>
+<li>A <code>tier-2</code> costs <code>5-cred</code> upfront or <code>3-cred</code> if you upgrade it from a <code>tier-1</code>.</li>
+<li>A <code>tier-3</code> costs <code>10-cred</code> upfront or <code>5-cred</code> if you upgrade it from a <code>tier-2</code>.</li>
+<li>A <code>tier-4</code> costs <code>20-cred</code> upfront or <code>10-cred</code> if you upgrade it from a <code>tier-3</code>. However <code>tier-4</code> are rare and experimental and cannot be found on the market. If you want to upgrade to a <code>tier-4</code>, you must first establish in the fiction how you can get it.</li>
 </ul>
 <p>Augs may be <code>broken</code> as a consequence of moves. A <code>broken</code> aug does not function anymore and you can't benefit from its function. A <code>broken</code> aug costs <code>1-cred</code> to <strong>repair</strong>.</p>
 <p>Augs may also be <code>destroyed</code>. When one of your aug is destroyed, erase it from your shell. If you want to reacquire it, it will be the full price.</p>
 <p><strong>Stats</strong> are augs too. If you want to upgrade one of your stat or repair it, the costs above apply. Stat augs may be <code>broken</code> several time, each applying a malus of -1d in its associated stat. However, stat augs may never be <code>destroyed</code>.</p>
 <h3 id="augs-list">Augs list</h3>
-<ul>
-<li><strong>Aesthetics augs</strong> <code>0-aug</code> : Aesthetics augmentations. Choose any : facial reconstruction, fur, biosimulated appearance, dynamic tatoos, programmable skin pigmentation, cat ears, frontal horns, programmable hairs, ...</li>
-<li><strong>Antimatter bomb</strong> <code>2-aug</code> <code>6-harm</code> <code>ap</code> <code>breach</code> <code>area</code> <code>far</code> : When you want or just before dying, you can activate an internal antimatter bomb that deals 6-harm ap breach area in a far range. It kills you instantaneously, destroys your cortical stack as well as the cortical stacks of every shells killed by the explosion. Integrated antimatter bombs are rare and usually forbidden and almost exclusively used for suicide missions and terrorism.</li>
-<li><strong>Autocalibrating sensors</strong> <code>1-aug</code> : You are protected against the <code>overload</code> effect.</li>
-<li><strong>Ballistics softwares</strong> <code>1-aug</code> : Aiming correction and predictive ballistic stabilization giving a bonus of +1 when you're <em><strong>Deploying violence</strong></em> with a ranged weapon.</li>
-<li><strong>Brace point</strong> <code>1-aug</code> : You have a retractable gyroscopic arm that allows you to use <code>braced</code> directly on you shell.</li>
-<li><strong>Close combat softwares</strong> <code>1-aug</code> : Softwares such as kinesthesic analyses or adversary positioning prediction giving a bonus of +1 when you're <em><strong>Deploying violence</strong></em> with melee weapons or with "bare hands".</li>
-<li><strong>Cortical stack</strong> <code>0-aug</code> : A device constantly monitoring your brain and making backup of it. The main use of cortical stack is to retrieve someone's topology after the death of its shell. If a cortical stack is <code>broken</code>, it means that it will not register any memories from the moment it was <code>broken</code>. If it is destroyed, it means that it cannot be used to reshell you.</li>
-<li><strong>Dead switch</strong> <code>1-aug</code> : A small box containing a small nanoswarm designed to destroy the cortical stack on command or when the shell dies. This aug is used when you don't want your ego to fall in wrong hands.</li>
-<li><strong>Defence measures</strong> <code>n-aug</code> : Adds <code>+n-armor</code> (max +3). Choose n : epidermic kevlar, nanocarbon-reinforced bones, magnetic decelerator, ...</li>
-<li><strong>Enhanced strength</strong> <code>n-aug</code> : Adds <code>+n-harm</code> (max +3) when inflicting harm with your strength. Choose n : synthetic muscles, high newton actuators, ...</li>
-<li><strong>Extreme adaptation mods</strong> <code>1-aug</code> : Allows you to ignore extreme dangers : extreme heat, extreme cold, 0g or low-g, high-g, void and high-pressure, radiation, under water, ... Synth shells are automatically adapted to low and high pressures.</li>
-<li><strong>Faraday net</strong> <code>1-aug</code> <code>+faraday</code> : A faraday net covers your shell protecting you against the effect of <code>emp</code> weapons.</li>
-<li><strong>Fast healing / Autorepair</strong> <code>1-aug</code> : Your body heals or repair itself fast. Whenever an hour or two passes, you erase all tracks on your Harm Clock.</li>
-<li><strong>Foam generator</strong> <code>1-aug</code> : Project fast expansive foam at a <code>close</code> range. The foam solidifies in a matter of seconds allowing to seal breaches, shut passageways or creates rough structures. As a weapon, the foam generator does not inflict damage but may slow down or paralyze your enemy.</li>
-<li><strong>Fractal digits</strong> <code>1-aug</code> : A set of fractally dividing digits to manipulate matter at the molecular level. Allows to use <em><strong>Nanotechnology</strong></em> provided you have relevant matter at hands.</li>
-<li><strong>Grid inserts</strong> <code>0-aug</code> : Grid inserts is the basic package of almost every shells. Grid inserts comprises a wireless connection to the Grid and the integration of the Grid to the shell's sensory systems. As such, it allows you to access the Grid directly or through your angel, to jack in the Grid and simulspaces, to make Grid related moves, to perceive the layers of alternate reality covering real places, ...</li>
-<li><strong>Integrated ego loader</strong> <code>1-aug</code> : Allows you to load an cortical stack directly into your integrated simulspace. This aug allows you to interact in this simulspace with the ego and perform <strong><em>Psychosurgery</em></strong> on them. You can control whether the ego has access or not to your perceptions and you can give them control of your shell.</li>
-<li><strong>Integrated electron impulser</strong> <code>1-aug</code> : Allows to manipulate <code>off-grid</code> technology at a close range.</li>
-<li><strong>Integrated weapon</strong> <code>1-aug</code> : Design a weapon according to the rules : it costs <code>+1-cred</code> to be integrated.</li>
-<li><strong>Integrated jammer</strong> <code>1-aug</code> : You can falsify all physical scans.</li>
-<li><strong>Motricity actuators</strong> <code>1-aug</code> : All shells ships with a free basic motricity actuator which are generally legs. For different or additional modes of transportation, choose 1 : flight (wings, propeller, ...), swim (fins, propeller, ...), wall climbing (grappling, magnetic crampon, adhesive limbs, ...), ...</li>
-<li><strong>Plasma cutter</strong> <code>1-aug</code> : An integrated plasma cutter allowing you to open breaches in walls. Can also be used as a weapon : <code>3-harm breach hand</code>.</li>
-<li><strong>Quantum relay</strong> <code>2-aug</code> : A quantum relay allows you to instantaneously upload your ego, Angel and software to a server anywhere in the universe when you die. This allows to always retain the memory of your last moments.</li>
-<li><strong>Shapeshift mods</strong> <code>1-aug</code> : You can change your "look" at will in the constraints of your general morphology. Synthshells can simulate bioshell looks this way too.</li>
-<li><strong>Stealth enhancements</strong> <code>1-aug</code> : This augmentations usually comes as sheets of epidermic metamaterials and silenced actuators giving a bonus of +1 to <strong><em>Infiltrate</em></strong>.</li>
-<li><strong>Terahertz optics</strong> <code>1-aug</code> : You can see through walls.</li>
-<li><strong>Throwing mods</strong> <code>n-aug</code> : You can throw anything at superhuman ranges and precision: <code>1-aug</code> : <code>+far</code> ; <code>2-aug</code> : <code>+away</code>.</li>
-</ul>
+<p><strong>Aesthetics augs</strong> <code>tier-0</code> : Aesthetics augmentations. Choose any : facial reconstruction, fur, biosimulated appearance, dynamic tatoos, programmable skin pigmentation, cat ears, frontal horns, programmable hairs, ...<br />
+<strong>Antimatter bomb</strong> <code>tier-2</code> <code>6-harm</code> <code>ap</code> <code>breach</code> <code>area</code> <code>far</code> : When you want or just before dying, you can activate an internal antimatter bomb that deals 6-harm ap breach area in a far range. It kills you instantaneously, destroys your cortical stack as well as the cortical stacks of every shells killed by the explosion. Integrated antimatter bombs are rare and usually forbidden and almost exclusively used for suicide missions and terrorism.<br />
+<strong>Autocalibrating sensors</strong> <code>tier-1</code> : You are protected against the <code>overload</code> effect.<br />
+<strong>Ballistics softwares</strong> <code>tier-1</code> : Aiming correction and predictive ballistic stabilization giving a bonus of +1 when you're <em><strong>Deploying violence</strong></em> with a ranged weapon.<br />
+<strong>Brace point</strong> <code>tier-1</code> : You have a retractable gyroscopic arm that allows you to use <code>braced</code> directly on you shell.<br />
+<strong>Close combat softwares</strong> <code>tier-1</code> : Softwares such as kinesthesic analyses or adversary positioning prediction giving a bonus of +1 when you're <em><strong>Deploying violence</strong></em> with melee weapons or with "bare hands".<br />
+<strong>Cortical stack</strong> <code>tier-0</code> : A device constantly monitoring your brain and making backup of it. The main use of cortical stack is to retrieve someone's topology after the death of its shell. If a cortical stack is <code>broken</code>, it means that it will not register any memories from the moment it was <code>broken</code>. If it is destroyed, it means that it cannot be used to reshell you.<br />
+<strong>Dead switch</strong> <code>tier-1</code> : A small box containing a small nanoswarm designed to destroy the cortical stack on command or when the shell dies. This aug is used when you don't want your ego to fall in wrong hands.<br />
+<strong>Defence measures</strong> <code>tier-n</code> : Adds <code>+n-armor</code> (max +3). Choose n : epidermic kevlar, nanocarbon-reinforced bones, magnetic decelerator, ...<br />
+<strong>Enhanced strength</strong> <code>tier-n</code> : Adds <code>+n-harm</code> (max +3) when inflicting harm with your strength. Choose n : synthetic muscles, high newton actuators, ...<br />
+<strong>Extreme adaptation mods</strong> <code>tier-1</code> : Allows you to ignore extreme dangers : extreme heat, extreme cold, 0g or low-g, high-g, void and high-pressure, radiation, under water, ... Synth shells are automatically adapted to low and high pressures.<br />
+<strong>Faraday net</strong> <code>tier-1</code> <code>+faraday</code> : A faraday net covers your shell protecting you against the effect of <code>emp</code> weapons.<br />
+<strong>Fast healing / Autorepair</strong> <code>tier-1</code> : Your body heals or repair itself fast. Whenever an hour or two passes, you erase all tracks on your Harm Clock.<br />
+<strong>Foam generator</strong> <code>tier-1</code> : Project fast expansive foam at a <code>close</code> range. The foam solidifies in a matter of seconds allowing to seal breaches, shut passageways or creates rough structures. As a weapon, the foam generator does not inflict damage but may slow down or paralyze your enemy.<br />
+<strong>Fractal digits</strong> <code>tier-1</code> : A set of fractally dividing digits to manipulate matter at the molecular level. Allows to use <em><strong>Nanotechnology</strong></em> provided you have relevant matter at hands.<br />
+<strong>Grid inserts</strong> <code>tier-0</code> : Grid inserts is the basic package of almost every shells. Grid inserts comprises a wireless connection to the Grid and the integration of the Grid to the shell's sensory systems. As such, it allows you to access the Grid directly or through your angel, to jack in the Grid and simulspaces, to make Grid related moves, to perceive the layers of alternate reality covering real places, ...<br />
+<strong>Integrated ego loader</strong> <code>tier-1</code> : Allows you to load an cortical stack directly into your integrated simulspace. This aug allows you to interact in this simulspace with the ego and perform <strong><em>Psychosurgery</em></strong> on them. You can control whether the ego has access or not to your perceptions and you can give them control of your shell.<br />
+<strong>Integrated electron impulser</strong> <code>tier-1</code> : Allows to manipulate <code>off-grid</code> technology at a close range.<br />
+<strong>Integrated weapon</strong> <code>tier-1</code> : Design a weapon according to the rules : it costs <code>+1-cred</code> to be integrated.<br />
+<strong>Integrated jammer</strong> <code>tier-1</code> : Can block all wireless communications in a <code>close</code> range. Everything there goes <code>off-grid</code>.<br />
+<strong>Motricity actuators</strong> <code>tier-1</code> : All shells ships with a free basic motricity actuator which are generally legs. For different or additional modes of transportation, choose 1 : flight (wings, propeller, ...), swim (fins, propeller, ...), wall climbing (grappling, magnetic crampon, adhesive limbs, ...), ...<br />
+<strong>Plasma cutter</strong> <code>tier-1</code> : An integrated plasma cutter allowing you to open breaches in walls. Can also be used as a weapon : <code>3-harm breach hand</code>.<br />
+<strong>Quantum relay</strong> <code>tier-2</code> : A quantum relay allows you to instantaneously upload your ego, Angel and software to a server anywhere in the universe when you die. This allows to always retain the memory of your last moments.<br />
+<strong>Shapeshift mods</strong> <code>tier-1</code> : You can change your "look" at will in the constraints of your general morphology. Synthshells can simulate bioshell looks this way too.<br />
+<strong>Stealth enhancements</strong> <code>tier-1</code> : This augmentations usually comes as sheets of epidermic metamaterials and silenced actuators giving a bonus of +1 to <strong><em>Infiltrate</em></strong>.<br />
+<strong>Terahertz optics</strong> <code>tier-1</code> : You can see through walls.<br />
+<strong>Throwing mods</strong> <code>tier-n</code> : You can throw anything at superhuman ranges and precision: <code>tier-1</code> : <code>+far</code> ; <code>tier-2</code> : <code>+away</code>.</p>
 <h2 id="resurrection-insurance">Resurrection insurance</h2>
 <p>Since ego technology has appeared, resurrection insurance were put in place. The principle is simple, you regularly upload your ego in a server used as a backup and when you die, the insurance loads your backup in a new shell if it hasn't retrieved your cortical stack. Various levels of insurance allow for various levels of service.</p>
 <p>In mechanical terms you must pay your insurance at the beginning of the session. You can select any level of insurance as long as you have the cred to pay it. If you die during the session, you benefit from the insurance, if you don't die, well, too bad.</p>
 <p>Resurrection insurance levels :</p>
 <ul>
 <li><code>0-cred</code> resurrection insurance : Regular backup and minimal infoshell processing in case you die.</li>
-<li><code>1-cred</code> resurrection insurance : Regular backup and <code>2-aug</code> shell, the MC describes its type and look.</li>
-<li><code>2-cred</code> resurrection insurance : Regular backup and a<code>4-aug</code> shell, you detail its type and look.</li>
-<li><code>3-cred</code> resurrection insurance : Regular backup and an identical shell with as many <code>aug</code> as you had when died or a tailored <code>6-aug</code> shell, you detail its type and look.</li>
+<li><code>1-cred</code> resurrection insurance : Regular backup and <code>tier-2</code> shell, the MC describes its type and look.</li>
+<li><code>2-cred</code> resurrection insurance : Regular backup and a<code>tier-4</code> shell, you detail its type and look.</li>
+<li><code>3-cred</code> resurrection insurance : Regular backup and an identical shell with as many <code>aug</code> as you had when died or a tailored <code>tier-6</code> shell, you detail its type and look.</li>
 </ul>
 <h2 id="angeldaemon">Angel/Daemon</h2>
 <p>An angel is an intelligent device that allows you to access and retrieve information, connect to other devices, communicate with the Grid, run your softwares, ... It's essentially a intelligent multi-purpose computer. It can be a portable device with a screen and buttons or can be an integrated aug that interfaces with your augmented reality. Often, it has an intelligent interface that is a pseudofork of its owner.</p>

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url("CaviarDreams.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  src: url("FiraMono-Regular.ttf") format('truetype');
+}
+
+
+:root {
+	--light-grey: #ddd;
+	--dark-grey: #222;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Caviar Dreams";
+	font-weight: bolder;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+code {
+	font-family: "Fira Mono";
+	border-radius: 0.4em;
+	padding: 0.1em;
+}
+
+li {
+	font-family: sans-serif;
+}
+
+.admonition {
+	margin-bottom: 0.25em;
+	padding: 0.1em;
+	border-radius: 0.2em;
+	border-left-width: 0.2em;
+	border-left-style: solid;
+}
+
+.admonition-title {
+	position: absolute !important;
+	margin: -0.16em -0.2em;
+	padding: 0.1em;
+	border-bottom-right-radius: 0.25rem;
+	text-align: center;
+	color: white;
+	font-family: "Caviar Dreams";
+	font-weight: bold;
+}
+
+.admonition-title + p {
+	margin-top: 0.2em;
+	text-indent: 7em;
+}

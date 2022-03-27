@@ -1,22 +1,9 @@
-@font-face {
-  font-family: "Fira Mono";
-  src: url("FiraMono-Regular.ttf") format('truetype');
-}
 
-@font-face {
-  font-family: "Caviar Dreams";
-  src: url("CaviarDreams.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: "Poiret One";
-  src: url("PoiretOne-Regular.ttf") format('truetype');
-}
 
 /* Headers */
 
 .md-typeset h1, .md-typeset h2, .md-typeset  h3 {
-    font-family: "Poiret One";
+    font-family: "Caviar Dreams";
     font-weight: 700;
     color: var(--md-accent-fg-color);
     border-bottom-color: var(--md-accent-fg-color);
@@ -76,7 +63,9 @@ p:has(+ ul) {
 }
 
 .md-typeset .admonition-title {
-    padding: .1rem .6rem .1rem 2rem;
+	padding: 0rem .6rem 0rem 2rem;
+	width: 7.5em;
+	border-width: 0rem;
 }
 
 .md-typeset .admonition-title::before {
