@@ -19,6 +19,16 @@
 }
 
 @font-face {
+	font-family: "Main Font";
+	src: url("AstroMono-Regular.woff");
+}
+
+@font-face {
+	font-family: "Title Font";
+	src: url("exobyte.otf");
+}
+
+@font-face {
   font-family: "Fira Mono";
   src: url("FiraMono-Regular.ttf") format('truetype');
 }
@@ -29,8 +39,12 @@
 	--dark-grey: #222;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: "Caviar Dreams Bold";
+h1 {
+	font-family: "Title Font";
+}
+
+h2, h3, h4, h5 {
+	font-family: "Main Font";
 	font-weight: bolder;
 }
 
@@ -45,29 +59,46 @@ code {
 }
 
 li {
-	font-family: sans-serif;
+	font-family: "sans-serif";
 }
 
 .admonition {
 	margin-bottom: 0.25em;
 	padding: 0.1em;
-	border-radius: 0.2em;
 	border-left-width: 0.2em;
 	border-left-style: solid;
+  --s: 3px;
+  clip-path: polygon(
+    0 var(--s),
+    var(--s) 0,
+    calc(100% - var(--s)) 0,
+    100% var(--s),
+    100% calc(100% - var(--s)),
+    calc(100% - var(--s)) 100%,
+    var(--s) 100%,
+    0 calc(100% - var(--s))
+  ) border-box;
 }
 
 .admonition-title {
-	position: absolute !important;
 	margin: -0.16em -0.2em;
 	padding: 0.1em;
 	border-bottom-right-radius: 0.25rem;
 	text-align: center;
 	color: white;
-	font-family: "Caviar Dreams Bold";
+	font-family: "Main Font";
 	font-weight: bold;
+  --s: 3px;
+  clip-path: polygon(
+		0 0,
+		100% 0,
+    100% calc(100% - var(--s)),
+    calc(100% - var(--s)) 100%,
+		0 100%
+  ) border-box;
 }
 
 .admonition-title + p {
-	margin-top: 0.2em;
-	text-indent: 7em;
+	margin-top: -1.5em;
+	text-indent: 8.5em;
 }

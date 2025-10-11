@@ -1,80 +1,124 @@
+:root > * {
+  --md-primary-bg-color: hsla(0, 0%, 100%, 1);
+  --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+  --md-primary-fg-color: white;
+  --md-primary-fg-color--light: white;
+  --md-primary-fg-color--dark: white;
+  --md-accent-fg-color: white;
+  --md-accent-fg-color--transparent: hsla(white, 0.1);
+  --md-accent-bg-color: hsla(0, 0%, 100%, 1);
+  --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);
+}
+
 /* Headers */
 
-.md-typeset h1, .md-typeset h2, .md-typeset  h3 {
-    font-family: "Caviar Dreams Bold";
-    font-weight: 900;
-    color: var(--md-accent-fg-color);
-    border-bottom-color: var(--md-accent-fg-color);
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    padding-bottom: 0.3em;
-    letter-spacing: 0.1em;
+.md-header {
+  background-color: var(--md-footer-bg-color);
+  font-family: "Title Font";
 }
 
-.md-typeset h2, .md-typeset h3 {
-    margin: 1em 0 .64em;
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: "Main Font";
+  font-weight: 900;
+  /* color: var(--md-accent-fg-color); */
+  /* border-bottom-color: var(--md-accent-fg-color); */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-bottom: 0.3em;
+  letter-spacing: 0.1em;
 }
 
-.md-typeset h1 code, .md-typeset h2 code, .md-typeset h3 code, .md-typeset h4 code, .md-typeset h5 code {
-    background-color: var(--md-code-bg-color);
-    padding: 0.15em 0.3em;
+.md-typeset h1 {
+  font-family: "Title Font";
+  color: var(--md-primary-bg-color);
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  margin: 1em 0 0.64em;
+}
+
+.md-typeset h1 code,
+.md-typeset h2 code,
+.md-typeset h3 code,
+.md-typeset h4 code,
+.md-typeset h5 code {
+  background-color: var(--md-code-bg-color);
+  padding: 0.15em 0.3em;
 }
 
 /* Icon colors */
 
-.md-typeset .emojione, .md-typeset .gemoji, .md-typeset .twemoji {
-    color: var(--md-default-fg-color);
+.md-typeset .emojione,
+.md-typeset .gemoji,
+.md-typeset .twemoji {
+  color: var(--md-default-fg-color);
 }
 
 /* Code */
 
 .md-typeset code {
-    font-family: "Fira Mono";
-    padding: 0.15em 0.3em;
+  font-family: "Fira Mono";
+  padding: 0.15em 0.3em;
 }
 
 /* Em */
 
-/* .md-typeset em {
-    color: var(--md-default-fg-color--light);
-} */
+.md-typeset em {
+  color: var(--md-default-fg-color--light);
+}
 
 /* List */
 
-.md-typeset ol, .md-typeset ul {
-    margin: 0em;
+.md-typeset ol,
+.md-typeset ul {
+  margin: 0em;
 }
 
-.md-typeset ol li, .md-typeset ul li {
-    margin-bottom: 0em;
+.md-typeset ol li,
+.md-typeset ul li {
+  margin-bottom: 0em;
 }
 
 p:has(+ ul) {
-    margin-bottom: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 /* Admonitions */
 
 .md-typeset .admonition {
-    font-size: 1em;
-    margin: 0.45em 0;
+  font-size: 1em;
+  margin: 0.45em 0;
 }
 
 .md-typeset .admonition-title {
-	padding: 0rem .6rem 0rem 2rem;
-	width: 7.5em;
-	border-width: 0rem;
+  padding: 0rem 0.6rem 0rem 2rem;
+  width: 8.5em;
+  border-width: 0rem;
 }
 
 .md-typeset .admonition-title::before {
-    top: 0.15em;
+  top: 0.15em;
 }
 
-html .md-typeset .admonition > p:not(.admonition-title), html .md-typeset .admonition > ul {
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem;
+html .md-typeset .admonition > p:not(.admonition-title) {
+  margin-top: -1.3rem;
+  /* margin-bottom: 0.1rem; */
 }
 
-html .md-typeset .admonition > :last-child, html .md-typeset details > :last-child {
-    margin-bottom: 0.1rem;
+html .md-typeset .admonition > :last-child,
+html .md-typeset details > :last-child {
+  margin-bottom: 0.1rem;
 }
+
+/* Nav */
+
+.md-nav,
+.md-nav li{
+  font-family: "Main Font" !important;
+}
+
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+  color: var(--md-typeset-a-color);
+  font-weight: bolder;
