@@ -23,8 +23,8 @@
   font-weight: 900;
   /* color: var(--md-accent-fg-color); */
   /* border-bottom-color: var(--md-accent-fg-color); */
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid; */
   padding-bottom: 0.3em;
   letter-spacing: 0.1em;
 }
@@ -90,12 +90,16 @@ p:has(+ ul) {
 .md-typeset .admonition {
   font-size: 1em;
   margin: 0.45em 0;
+  background-color: var(--md-code-bg-color);
+  border: none;
+  border-radius: 0%;
 }
 
 .md-typeset .admonition-title {
   padding: 0rem 0.6rem 0rem 2rem;
-  width: 8.5em;
+  width: 9em;
   border-width: 0rem;
+  border-radius: 0%;
 }
 
 .md-typeset .admonition-title::before {
@@ -104,12 +108,12 @@ p:has(+ ul) {
 
 html .md-typeset .admonition > p:not(.admonition-title) {
   margin-top: -1.3rem;
-  /* margin-bottom: 0.1rem; */
+  margin-bottom: 0.0rem;
 }
 
 html .md-typeset .admonition > :last-child,
 html .md-typeset details > :last-child {
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.0rem;
 }
 
 /* Nav */
