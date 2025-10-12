@@ -22,9 +22,9 @@
   font-family: "Main Font";
   font-weight: 900;
   /* color: var(--md-accent-fg-color); */
-  /* border-bottom-color: var(--md-accent-fg-color); */
-  /* border-bottom-width: 1px;
-  border-bottom-style: solid; */
+  border-bottom-color: var(--md-accent-fg-color);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
   padding-bottom: 0.3em;
   letter-spacing: 0.1em;
 }
@@ -92,14 +92,14 @@ p:has(+ ul) {
   margin: 0.45em 0;
   background-color: var(--md-code-bg-color);
   border: none;
-  border-radius: 0%;
+  border-radius: 0em !important;
 }
 
 .md-typeset .admonition-title {
   padding: 0rem 0.6rem 0rem 2rem;
   width: 9em;
   border-width: 0rem;
-  border-radius: 0%;
+  border-radius: 0em !important
 }
 
 .md-typeset .admonition-title::before {
