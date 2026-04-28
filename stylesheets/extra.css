@@ -14,7 +14,17 @@
 
 .md-header {
   background-color: var(--md-footer-bg-color);
+}
+
+.md-header .md-ellipsis {
   font-family: "Title Font";
+  letter-spacing: 0.25rem;
+}
+
+.md-typeset h1 {
+  font-family: "Title Font";
+  color: var(--md-primary-bg-color);
+  letter-spacing: 0.25rem;
 }
 
 .md-typeset h2,
@@ -27,11 +37,6 @@
   border-bottom-style: solid;
   padding-bottom: 0.3em;
   letter-spacing: 0.1em;
-}
-
-.md-typeset h1 {
-  font-family: "Title Font";
-  color: var(--md-primary-bg-color);
 }
 
 .md-typeset h2,
@@ -99,7 +104,7 @@ p:has(+ ul) {
   padding: 0rem 0.6rem 0rem 2rem;
   width: 9em;
   border-width: 0rem;
-  border-radius: 0em !important
+  border-radius: 0em !important;
 }
 
 .md-typeset .admonition-title::before {
@@ -108,21 +113,23 @@ p:has(+ ul) {
 
 html .md-typeset .admonition > p:not(.admonition-title) {
   margin-top: -1.3rem;
-  margin-bottom: 0.0rem;
+  margin-bottom: 0rem;
 }
 
 html .md-typeset .admonition > :last-child,
 html .md-typeset details > :last-child {
-  margin-bottom: 0.0rem;
+  margin-bottom: 0rem;
 }
 
 /* Nav */
 
 .md-nav,
-.md-nav li{
+.md-nav li {
   font-family: "Main Font" !important;
 }
 
-.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+.md-nav__item .md-nav__link--active,
+.md-nav__item .md-nav__link--active code {
   color: var(--md-typeset-a-color);
   font-weight: bolder;
+}

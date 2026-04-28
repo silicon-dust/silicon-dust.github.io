@@ -107,3 +107,12 @@ li {
   margin-top: -1.5em;
   text-indent: 8.75em;
 }
+
+.md-search__input,
+.md-search-result {
+  font-family: "Main Font";
+}
+
+.md-search-result h1 {
+  font-family: "Main Font";
+}
